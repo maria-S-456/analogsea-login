@@ -1,0 +1,52 @@
+body {
+	background-color: #3F94E7;
+}
+.mainpanel {
+	width: 320px;
+	height:350px;
+	background-color: white;
+	margin: auto;
+	padding-right:40px;
+	padding-left:40px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.picture {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 35px; /*combination of max-height, width, and height causes the logo to only reach a height of 35px, while retaining it's aspect ration*/
+	width: auto;
+	height: auto;
+	margin-bottom: 30px;
+	margin-top:30px;
+}
+#signuptitle {
+	text-align:center;
+}
+#loginlink {
+	text-align:center;
+	color: white;
+}
+#email {
+	height: 30px;
+}
+#password {
+	height: 30px;
+}
+.inputbars {
+	height: 38px;
+	width: 303px;
+	border: 2px solid lightgrey;
+	padding-top:15px;
+	padding-bottom:15px; /*padding affects the space between the words in the input boxes and their border*/
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 13px 13px 13px 0px; /*margin makes padding OUTSIDE of input boxes*/
+}
+.button {
+	background-color: #65C470;
+}
+#forgotpassword {
+	text-align: center;
+}
